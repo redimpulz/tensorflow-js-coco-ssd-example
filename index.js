@@ -1,7 +1,8 @@
-const img = document.querySelector("#img");
+window.onload = async () => {
+  const img = document.querySelector("#img");
 
-// Load the model.
-cocoSsd.load().then(async (model) => {
+  // Load the model.
+  const model = await cocoSsd.load();
   // detect objects in the image.
   const predictions = await model.detect(img);
   console.log(predictions);
@@ -30,4 +31,4 @@ cocoSsd.load().then(async (model) => {
       );
     }
   }
-});
+};
