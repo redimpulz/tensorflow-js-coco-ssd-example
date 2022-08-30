@@ -1,7 +1,7 @@
-# tensorflow-js-coco-ssd-example
+# tfjs-cocossd-example
 
 ```bash
-git clone https://github.com/redimpulz/tensorflow-js-coco-ssd-example.git
+git clone https://github.com/redimpulz/tfjs-cocossd-example.git
 npx serve .
 ```
 
